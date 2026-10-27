@@ -1,0 +1,17 @@
+{
+  "title": "Tanque",
+  "description": "Tanque — small, careful tools.",
+  "url": "https://tanque.org",
+  "sections": [
+    { "label": "Journal", "folders": [
+      { "id": "all", "name": "All posts", "icon": "stack" },
+      { "id": "story", "name": "Story Studio", "icon": "folder" },
+      { "id": "patterns", "name": "Patterns", "icon": "folder" },
+      { "id": "notes", "name": "Workshop notes", "icon": "folder" },
+      { "id": "releases", "name": "Releases", "icon": "folder" }
+    ]},
+    { "label": "Tanque", "folders": [
+      { "id": "about", "name": "About", "icon": "person" }
+    ]}
+  ]
+}
