@@ -8,7 +8,7 @@ npm run build     # → dist/
 npm run preview   # build, then serve dist/ at http://localhost:4321
 ```
 
-Deploy by uploading the contents of `dist/` to the web root.
+Pushing to `main` deploys: `.github/workflows/deploy.yml` builds the site and publishes `dist/` to GitHub Pages, which serves it at tanque.org with an automatic HTTPS certificate. `static/CNAME` holds the custom domain.
 
 ## Writing a post
 
@@ -53,4 +53,4 @@ Each page is fully server-rendered, so posts are crawlable and links work before
 - Write all `[ placeholder ]` copy (posts, About, Now).
 - Local Code dock link still points at the TestFlight invite (`src/desktop.js`, `DOCK`).
 - `static/assets/drawthings.avif` is the file the prototype hotlinked: only 72×73 px, so it looks soft when the dock magnifies it. Swap in a larger icon if Draw Things provides one.
-- The server should send `/posts/<slug>/` to `posts/<slug>/index.html` (default on most static hosts).
+
