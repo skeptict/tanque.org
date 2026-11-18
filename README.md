@@ -18,7 +18,7 @@ Add `content/posts/<slug>.md`. The filename becomes the URL: `/posts/<slug>/`.
 ---
 title: My post
 folder: story            # a folder id from content/site.json
-date: 2026-10-21T09:14   # local time
+date: 2026-10-21T09:14   # US Eastern time
 snippet: Optional. Defaults to the first paragraph.
 ---
 
